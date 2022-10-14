@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .theme-bg{
+        @apply bg-background-dark;
+    }
+
+    .theme-bg-accent{
+        @apply bg-background-darkAccent;
+    }
+
+    .theme-text{
+        @apply text-white;
+    }
+}
