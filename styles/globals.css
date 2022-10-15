@@ -14,4 +14,8 @@
     .theme-text{
         @apply text-white;
     }
+
+    .active-nav-link{
+        @apply bg-primary-dark;
+    }
 }
