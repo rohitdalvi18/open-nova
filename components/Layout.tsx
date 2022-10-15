@@ -6,10 +6,11 @@ type LayoutProps = {
 }
 
 const Layout = ({ children } : LayoutProps)=>{
-    return(<div className="theme-bg flex flex-row">
-        <Navbar />
-        {children}
-    </div>)
+    return(
+        <div className="theme-bg h-screen">
+            {children}
+        </div>
+    )
 }
 
 export default Layout
