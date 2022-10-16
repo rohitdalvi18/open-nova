@@ -29,18 +29,18 @@ git clone https://github.com/<Your-name>/open-nova.git
 cd open-nova
 ```
 
-3. Install the dependencies
+4. Install the dependencies
 
 ```sh
 npm install
 ```
 
-4. Run the project on local machine
+5. Run the project on local machine
 
 ```sh
 npm run dev
 ```
-5. Open http://localhost:3000 with your browser to see the result.
+6. Open http://localhost:3000 with your browser to see the result.
 
 ### Issues
 
