@@ -58,11 +58,11 @@ npm run dev
 
 All code contributions must go through a pull request and be approved by a core developer before being merged. This is to ensure a proper review of all the code.
 
-We truly ❤️ pull requests! If you wish to help, you can learn more about how you can contribute to this project in the [contribution guide](https://github.com/TanmayBhosale/open-nova/edit/main/CONTRIBUTING.md).
+We truly ❤️ pull requests! If you wish to help, you can learn more about how you can contribute to this project in the [contribution guide](https://github.com/TanmayBhosale/open-nova/blob/main/CONTRIBUTING.md).
 
 ## Design:
 
-A helping hand is always appreciated! Have a look at our [🖼️ Designs](https://www.figma.com/file/Gk3kVAj3rcpMwKYegkLSbY/Tweetify?node-id=0%3A1) and feel free to make your contribution. Before contributing, kindly go through our [contribution guide](https://github.com/TanmayBhosale/open-nova/edit/main/CONTRIBUTING.md).
+A helping hand is always appreciated! Have a look at our [🖼️ Designs](https://www.figma.com/file/Gk3kVAj3rcpMwKYegkLSbY/Tweetify?node-id=0%3A1) and feel free to make your contribution. Before contributing, kindly go through our [contribution guide](https://github.com/TanmayBhosale/open-nova/blob/main/CONTRIBUTING.md).
 
 <hr>
 <b>This repository needs your support. Please make sure to leave a star!⭐</b>
