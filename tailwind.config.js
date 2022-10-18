@@ -18,7 +18,12 @@ module.exports = {
 
         background:{
           dark : "#0B1111",
-          darkAccent : "#222222"
+          darkAccent : "#222222",
+          threadLink: 'rgba(255, 255, 255, 0.5)'
+        },
+        text:{
+          white: '#fff',
+          accent:"rgba(255, 255, 255, 0.61)"
         }
       }
     },
