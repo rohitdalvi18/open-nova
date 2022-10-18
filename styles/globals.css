@@ -4,23 +4,23 @@
 
 @layer components{
     .theme-bg{
-        @apply bg-background-dark;
+        @apply bg-dark;
     }
 
     .theme-bg-accent{
-        @apply bg-background-darkAccent;
+        @apply bg-darkAccent;
     }
 
     .theme-text{
-        @apply text-text-dark;
+        @apply text-white;
     }
     .theme-text-accent{
-        @apply text-text-darkAccent;
+        @apply text-white opacity-50;
     }
     .active-nav-link{
         @apply bg-primary;
     }
-    .thread-link{
-        @apply bg-threadLink-dark;
+    .theme-thread-link{
+        @apply bg-white bg-opacity-60;
     }
 }

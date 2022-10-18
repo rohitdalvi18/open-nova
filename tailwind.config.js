@@ -10,17 +10,10 @@ module.exports = {
       colors:{
         primary:"#5234CA",
         secondary:"#5234CA",
-        background:{
-          dark : "#0B1111",
-          darkAccent : "#222222",
-        },
-        threadLink: {
-          dark:'rgba(255, 255, 255, 0.5)',
-        },
-        text:{
-          dark: '#fff',
-          darkAccent:"rgba(255, 255, 255, 0.61)"
-        }
+        dark : "#0B1111",
+        darkAccent : "#222222",
+        // white: '#fff',
+        // whiteAccent:"rgba(255, 255, 255, 0.61)",
       }
     },
   },
