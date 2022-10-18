@@ -16,8 +16,7 @@ A complete Open Source platform for managing your Twitter account 🕊
 
 Join OpenNova or host your own instance!
 
-![Display](https://user-images.githubusercontent.com/66182596/196021462-c2453c93-4608-434d-a9ab-46305b1e2d46.png)
-
+![Display](https://user-images.githubusercontent.com/115532814/196421252-28d8dc4d-80c2-49d9-a747-3c634b730668.png)
 
 </div>
 
