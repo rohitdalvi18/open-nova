@@ -12,10 +12,15 @@
     }
 
     .theme-text{
-        @apply text-white;
+        @apply text-text-white;
     }
-
+    .theme-text-accent{
+        @apply text-text-accent;
+    }
     .active-nav-link{
         @apply bg-primary-dark;
+    }
+    .thread-link{
+        @apply bg-background-threadLink
     }
 }
