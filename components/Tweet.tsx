@@ -9,7 +9,7 @@ const Tweet = () => {
                 <div className="w-14 rounded-full mb-2">
                     <img className="rounded-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvCdyi-jV5u0bVQC1BIH0LAH2wJT_p56qUNQ&usqp=CAU" alt="avatar" />
                 </div>
-                <div className="w-0.5 h-10 thread-link"></div>
+                <div className="w-0.5 h-10 theme-thread-link"></div>
             </div>
             <div className="w-full ml-3 flex flex-col">
                 <div className="flex items-center justify-between">
@@ -29,7 +29,7 @@ const Tweet = () => {
                             cy="14"
                             />
                             <circle
-                            className="stroke-cyan-500"
+                            className=" stroke-blue-500"
                             strokeWidth="5"
                             strokeDasharray={circumference}
                             strokeDashoffset={circumference - percent / 100 * circumference}
@@ -44,7 +44,7 @@ const Tweet = () => {
                     </div>
                 </div>
                 <div className="mt-1 w-full">
-                    <input className=" w-full bg-transparent" type="text" name="tweet" placeholder="What's happening?" />
+                    <input className=" w-full bg-transparent" type="textarea" name="tweet" placeholder="What's happening?" />
                 </div>
             </div>
         </div>
