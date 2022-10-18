@@ -8,22 +8,18 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        primary:{
-          dark : "#5234CA",
-          // light : "#fff"
-        },
-        secondary:{
-          dark : "#5234CA"
-        },
-
+        primary:"#5234CA",
+        secondary:"#5234CA",
         background:{
           dark : "#0B1111",
           darkAccent : "#222222",
-          threadLink: 'rgba(255, 255, 255, 0.5)'
+        },
+        threadLink: {
+          dark:'rgba(255, 255, 255, 0.5)',
         },
         text:{
-          white: '#fff',
-          accent:"rgba(255, 255, 255, 0.61)"
+          dark: '#fff',
+          darkAccent:"rgba(255, 255, 255, 0.61)"
         }
       }
     },
