@@ -11,7 +11,7 @@ module.exports = {
         primary:"#5234CA",
         secondary:"#5234CA",
         dark : "#0B1111",
-        darkAccent : "#222222",
+        darkAccent : "#141A1A",
         // white: '#fff',
         // whiteAccent:"rgba(255, 255, 255, 0.61)",
       }
