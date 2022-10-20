@@ -1,0 +1,41 @@
+name: "💡 Enhancement"
+description: Create a new ticket for enhancement request
+title: "💡 [ENHANCEMENT] - <title>"
+labels: [
+  "enhancement"
+]
+body:
+  - type: textarea
+    id: enhancement_pr
+    attributes:
+      label: "Is your enhancement proposal related to a problem?"
+      description: Please describe a clear and concise description of what the problem is
+      placeholder: "Description of the problem for enhancement"
+    validations:
+      required: false
+  - type: textarea
+    id: enhancement_sol
+    attributes:
+      label: "Describe the desired solution you'd like"
+      description: A clear and concise description of what you want to happen
+      placeholder: "Description of the solution for enhancement"
+    validations:
+      required: false
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Describe alternatives you've considered"
+      description: A clear and concise description of any alternative solutions or features you've considered
+      placeholder: Describe in a few lines your alternatives
+    validations:
+      required: false
+  - type: textarea
+    id: graphics
+    attributes:
+      label: "Additional context"
+      description: Add any other context or graphics (drag-and-drop an image) about the feature request here
+      value: |
+        ![DESCRIPTION](LINK.png)
+      render: bash
+    validations:
+      required: false
