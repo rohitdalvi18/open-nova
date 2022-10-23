@@ -2,25 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components{
-    .theme-bg{
-        @apply bg-dark;
-    }
-
-    .theme-bg-accent{
-        @apply bg-darkAccent;
-    }
-
-    .theme-text{
-        @apply text-white;
-    }
-    .theme-text-accent{
-        @apply text-white opacity-50;
-    }
-    .active-nav-link{
-        @apply bg-primary;
-    }
-    .theme-thread-link{
-        @apply bg-white bg-opacity-60;
-    }
+@layer components {
+  .theme-bg {
+    @apply bg-dark;
+  }
+  .theme-bg-accent {
+    @apply bg-darkAccent;
+  }
+  .theme-text {
+    @apply text-white;
+  }
+  .theme-text-accent {
+    @apply text-white opacity-50;
+  }
+  .active-nav-link {
+    @apply bg-primary;
+  }
+  .theme-thread-link {
+    @apply bg-white bg-opacity-60;
+  }
+  .custom-btn {
+    @apply cursor-pointer;
+    @apply text-center;
+    @apply rounded-full;
+    @apply p-4;
+  }
 }

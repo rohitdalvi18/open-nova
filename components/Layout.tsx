@@ -1,16 +1,12 @@
-import React from "react"
-import Navbar from "./Navbar"
+import React from "react";
+import Navbar from "./Navbar";
 
 type LayoutProps = {
-    children : React.ReactNode
-}
+  children: React.ReactNode;
+};
 
-const Layout = ({ children } : LayoutProps)=>{
-    return(
-        <div className="theme-bg h-screen">
-            {children}
-        </div>
-    )
-}
+const Layout = ({ children }: LayoutProps) => {
+  return <div className="theme-bg">{children}</div>;
+};
 
-export default Layout
+export default Layout;
