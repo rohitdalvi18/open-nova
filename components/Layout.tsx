@@ -6,7 +6,7 @@ type LayoutProps = {
 };
 
 const Layout = ({ children }: LayoutProps) => {
-  return <div className="theme-bg">{children}</div>;
+  return <div className="theme-bg min-h-screen">{children}</div>;
 };
 
 export default Layout;

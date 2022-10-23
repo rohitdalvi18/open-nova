@@ -17,7 +17,7 @@ const Navbar = () => {
     return item === route ? " active-nav-link" : "";
   };
   return (
-    <nav className="theme-bg-accent w-1/5">
+    <nav className="theme-bg-accent w-1/5 min-h-screen">
       <div className="flex flex-row mt-20 justify-center items-center">
         <Image width="45%" height="45%" src={logo} />
         <p className="ml-3 theme-text font-medium text-2xl">OpenNova</p>
